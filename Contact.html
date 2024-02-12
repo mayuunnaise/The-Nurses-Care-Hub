@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About</title>
+<style>
+  body {
+    background-color: #f2f2f2; /* Light grey background color */
+    color: #006400; /* Darker green text color */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    max-width: 800px;
+    margin: 50px auto; /* Centering the container */
+    padding: 20px;
+    background-color: #fff; /* White container background color */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Box shadow */
+  }
+  h1 {
+    color: #006400; /* Darker green heading color */
+  }
+  p {
+    line-height: 1.5; /* Adjusting line height for better readability */
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto; /* Centering images */
+  }
+</style>
+</head>
+<body>
+
+<section id="contact">
+  <h2>Contact Us</h2>
+  <p>Feel free to reach out to us with any questions, feedback, or inquiries.</p>
+  <form action="submit_form.php" method="post">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" rows="4" required></textarea>
+
+    <button type="submit">Submit</button>
+  </form>
+</section>
+
+
+  
